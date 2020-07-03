@@ -38,7 +38,7 @@ Library
     Profiling.Heap.Types
 
   Build-Depends: base >= 4 && < 5, containers, time >= 1.5, directory,
-                 filepath, process, network,
+                 filepath, process, network < 3,
                  bytestring, attoparsec
   ghc-options:   -Wall -O2
   ghc-prof-options: -prof -auto-all -caf-all
